@@ -1,0 +1,24 @@
+{
+  "name": "kafkasinktomongo",
+  "version": "1.0.0",
+  "description": "KafkaSinkToMongo for PT10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koski84/KafkaSinkToMongo.git"
+  },
+  "author": "Óscar Lamelas Damas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koski84/KafkaSinkToMongo/issues"
+  },
+  "homepage": "https://github.com/Koski84/KafkaSinkToMongo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^5.9.2"
+  }
+}
