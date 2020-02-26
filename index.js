@@ -14,8 +14,9 @@ const consumer = new Consumer(
   }
 )
 
-consumer.on('message', function (message) {
+consumer.on('message', (message) => {
   const advert = JSON.parse(message.value)
+  console.log('advert received:')
   console.log(advert)
 
   service.postAdvert(advert)
