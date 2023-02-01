@@ -19,6 +19,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "kafka-node": "^5.0.0",
-    "mongoose": "^5.9.2"
+    "mongoose": "^5.13.15"
   }
 }
